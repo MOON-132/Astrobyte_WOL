@@ -41,3 +41,12 @@ services:
     volumes:
       - ./data:/app/data
     restart: unless-stopped
+
+
+## 🌐 Accessing the Dashboard
+
+Once the container is running, open your favorite web browser and enter the IP address of your Docker host followed by port 5000:
+
+**`http://<YOUR-SERVER-IP>:5000`**
+
+*(Example: `http://192.168.1.100:5000`)*
