@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  wol-dashboard:
+    build: .
+    container_name: wol-dashboard
+    network_mode: host
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
