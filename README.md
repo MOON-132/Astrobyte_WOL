@@ -41,7 +41,7 @@ services:
     volumes:
       - ./data:/app/data
     restart: unless-stopped
-
+```
 
 ## 🌐 Accessing the Dashboard
 
